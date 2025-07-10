@@ -1,0 +1,18 @@
+/* Container already styled in global */
+.card {
+  background-color: var(--card-dark);
+  color: var(--text-light);
+  border: 1px solid var(--border-dark);
+  transition: 0.3s;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px var(--shadow-dark);
+}
+
+.card-title {
+  color: var(--accent);
+  font-weight: 600;
+}

@@ -1,0 +1,16 @@
+.nav-dark {
+  background-color: #181818;
+  border-bottom: 1px solid var(--border-dark);
+}
+
+.nav-link {
+  color: #aaaaaa !important;
+  padding: 10px 15px;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: var(--accent) !important;
+}

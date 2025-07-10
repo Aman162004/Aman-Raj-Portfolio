@@ -1,0 +1,105 @@
+/* Resume Page CSS */
+
+.resume-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--accent);
+  text-align: center;
+}
+
+.btn-accent {
+  background-color: var(--accent);
+  color: #000;
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-accent:hover {
+  background-color: #00f2a4;
+  color: #000;
+}
+
+.resume-section {
+  margin-bottom: 3rem;
+  background-color: var(--card-dark);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.section-heading {
+  font-size: 1.8rem;
+  color: var(--accent);
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid var(--border-dark);
+  padding-bottom: 0.5rem;
+  text-align: left;
+}
+
+.item h4 {
+  color: var(--text-light);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.item .date {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #aaa;
+  margin-left: 10px;
+}
+
+.item p {
+  margin: 0.2rem 0 0.8rem;
+  color: #ccc;
+}
+
+.resume-list {
+  list-style: disc;
+  padding-left: 1.5rem;
+  text-align: left;
+  color: #ccc;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.skills-grid h5 {
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.dropped {
+  color: #ff4c4c;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .resume-section {
+    padding: 1.5rem;
+  }
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}

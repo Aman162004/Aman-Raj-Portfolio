@@ -1,0 +1,140 @@
+/* Dark Theme Base */
+.dark-section {
+  background-color: #121212;
+  color: #e0e0e0;
+  padding: 60px 20px;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Flex Layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.about-row {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile-pic img {
+  width: 220px;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #333;
+  object-fit: cover;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+}
+
+/* About Text */
+.about-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  color: #64ffda;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #cccccc;
+  margin-bottom: 25px;
+}
+
+/* Contact Card */
+.contact-card {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-left: 5px solid #64ffda;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.contact-card h3 {
+  margin-bottom: 10px;
+}
+
+.contact-card a {
+  color: #64ffda;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-card a:hover {
+  color: #18ffff;
+}
+
+/* Section Title */
+.section-title h2 {
+  font-size: 2rem;
+  color: #64ffda;
+  margin-bottom: 30px;
+}
+
+/* Education Cards */
+.edu-card {
+  background-color: #1a1a1a;
+  padding: 25px;
+  border-left: 4px solid #64ffda;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-4px);
+}
+
+.edu-card h3 {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.edu-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #90caf9;
+  margin-bottom: 10px;
+}
+
+.edu-card p {
+  color: #b0bec5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .edu-meta {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .profile-pic img {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .about-row {
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-text {
+    margin-top: 20px;
+  }
+}
