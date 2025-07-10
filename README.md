@@ -1,22 +1,22 @@
-# 🚀 Aman Raj – Personal Portfolio Website
+# Aman Raj – Personal Portfolio Website
 
 Welcome to my official personal portfolio website built using **Angular**!  
 This project showcases my profile, skills, resume, and project work with a responsive dark-themed design.
 
-🔗 **Live Website**: [https://your-username.github.io/your-repo-name](https://your-username.github.io/your-repo-name)
+🔗 **Live Website**: (https://aman162004.github.io/Aman-Raj-Portfolio/home)
 
 ---
 
-## 📌 Tech Stack
+## Tech Stack
 
-- **Frontend**: Angular 16, Bootstrap 5, SCSS
+- **Frontend**: Angular 16, Bootstrap 5, CSSS
 - **Icons**: Bootstrap Icons
 - **Hosting**: GitHub Pages
 - **Design**: Modular, component-based layout with reusable styling
 
 ---
 
-## ✨ Features
+## Features
 
 - Modular component-based structure
 - Dark UI theme (fully responsive)
@@ -27,7 +27,7 @@ This project showcases my profile, skills, resume, and project work with a respo
 
 ---
 
-## 📄 Website Sections
+## Website Sections
 
 - **Home** – Intro, academic background, and specialization
 - **Portfolio** – Interactive modals for each project with tech stack and descriptions
@@ -36,7 +36,7 @@ This project showcases my profile, skills, resume, and project work with a respo
 
 ---
 
-## ⚙️ Angular CLI Instructions
+## Angular CLI Instructions
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
 
